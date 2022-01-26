@@ -1,0 +1,94 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px 25px;
+}
+
+nav a{ 
+    display: flex;
+    float: right;
+    color: rgba(17, 66, 46, 0.979);
+    text-align: right;
+    margin: 25px 10px;
+    text-decoration:none ;
+    position: relative;
+    padding: 0px 10px;
+}
+nav a::after {
+    content: '';
+        width: 0%;
+        height: 20px;
+        background-color: rgba(31, 143, 106, 0.979);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -30px;
+        transition: 0.5s;
+}
+nav a:hover::after {
+    width: 100%;
+}
+
+
+footer p{
+    background-color: rgb(255, 255, 255);
+    color: rgba(30, 116, 104, 0.979);
+    margin-top: 10px;
+}
+
+footer a{
+    color: rgb(20, 109, 104);
+    display: flex;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+
+form input {
+    padding: 10px 20px;
+    margin: 10px;
+}
+form select {
+   margin: 0px;
+    width: 100%;
+    background-color: rgb(116, 172, 137);
+    color: rgb(255, 255, 255);
+}
+form button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(116, 172, 137);
+    color: cornsilk;
+    padding: 15px 30px;
+}
+form legend {
+    font-family: fantasy;
+}
+
+.head h1{
+color: rgb(255, 255, 255);
+background-color: rgb(116, 172, 137);
+}
+
+
+#head {
+  display: flex;
+  background-color:rgba(88, 150, 139, 0.089) ;
+}
+#employeeCard {
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+#employeeCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: small;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgba(17, 66, 46, 0.979);
+}
