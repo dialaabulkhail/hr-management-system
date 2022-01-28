@@ -62,7 +62,7 @@ acc.addEventListener("click", function(e) {
 function settingItem(){
     let data = JSON.stringify(Employee.allEmployees);
     localStorage.setItem("head", data);
-    settingItem();
+    
 }
 function gettingItem(){
     let stringObj = localStorage.getItem("head");

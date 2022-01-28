@@ -1,14 +1,17 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 25px 25px;
 }
-
+#accounting {
+    color: rgba(28, 110, 83, 0.979);
+    border-bottom:solid
+}
 nav a{ 
     display: flex;
     float: right;
     color: rgba(17, 66, 46, 0.979);
     text-align: right;
-    margin: 25px 10px;
+    margin: 0px 10px;
     text-decoration:none ;
     position: relative;
     padding: 0px 10px;
@@ -28,20 +31,17 @@ nav a:hover::after {
     width: 100%;
 }
 
-
-footer p{
-    background-color: rgb(255, 255, 255);
-    color: rgba(30, 116, 104, 0.979);
-    margin-top: 10px;
-}
-
-footer a{
-    color: rgb(20, 109, 104);
-    display: flex;
+footer {
+    background-color:rgba(17, 85, 58, 0.836) ;
+    color: white;
+    margin: 150px;
     text-decoration: none;
-    margin-top: 100px;
 }
-
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-right: 45%;
+}
 
 form input {
     padding: 10px 20px;
@@ -92,3 +92,23 @@ h4 {
     justify-content: center;
     color:rgba(17, 66, 46, 0.979);
 }
+
+table {
+    border-bottom: 1px solid #ddd;
+   width: 80%;
+   
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: left;
+      }
+tr:hover {background-color: rgba(17, 85, 58, 0.342);}
+
+
+#trElfooter {
+    background-color: rgba(17, 66, 46, 0.979);
+    color: white;
+    ;
+}
+
